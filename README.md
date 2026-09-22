@@ -49,7 +49,7 @@ Proyecto intermodular del Ciclo Formativo de Grado Medio en Sistemas Microinform
 
 El archivo `ica_remote.sql` incluye datos de ejemplo (usuarios y peticiones ficticios) únicamente con fines de demostración. No contiene información personal real.
 
-> Los hashes de contraseña incluidos en el SQL son de ejemplo y no corresponden a contraseñas válidas. Para crear un usuario funcional, regístrate desde la propia web o genera un hash con la utilidad `prueba/hash.php`.
+> Los hashes de contraseña incluidos en el SQL son de ejemplo y no corresponden a contraseñas válidas. Para crear un usuario funcional, regístrate desde la propia web. Para convertirlo en administrador, cambia su campo `rol` a `admin` desde phpMyAdmin.
 
 ## Mejoras futuras
 
